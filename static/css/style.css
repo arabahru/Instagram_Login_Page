@@ -67,7 +67,7 @@ article {
 */
 
 .mobile_screen_area {
-  background-image: url(/static/images/mob.png);
+  background-image: url(../images/mob.png);
   background-size: 454px 618px;
   flex-basis: 454px;
   margin-left: -35px;
@@ -81,7 +81,7 @@ article {
   height: 427px;
   margin-left: 151px;
   margin-top: 99px;
-  background-image: url(/static/images/screen1.jpg);
+  background-image: url(../images/screen1.jpg);
   animation-name: change_screen;
   animation-duration: 25s;
   animation-iteration-count: infinite;
@@ -107,7 +107,7 @@ article {
 
 .login_actions_area h1 {
   margin: 22px auto 12px;
-  background-image: url(/static/images/collash.png);
+  background-image: url(../images/collash.png);
   background-repeat: no-repeat;
   background-position: 0 -130px;
   height: 51px;
@@ -202,7 +202,7 @@ article {
 
 .login_actions_area button span:first-child {
   position: relative;
-  background-image: url(/static/images/collash.png);
+  background-image: url(../images/collash.png);
   background-repeat: no-repeat;
   background-position: -414px -259px;
   margin-right: 8px;
@@ -351,23 +351,23 @@ footer div:last-child figure i svg {
 */
 @keyframes change_screen {
   20% {
-    background-image: url(/static/images/screen2.jpg);
+    background-image: url(../images/screen2.jpg);
   }
 
   40% {
-    background-image: url(/static/images/screen3.jpg);
+    background-image: url(../images/screen3.jpg);
   }
 
   60% {
-    background-image: url(/static/images/screen4.jpg);
+    background-image: url(../images/screen4.jpg);
   }
 
   80% {
-    background-image: url(/static/images/screen5.jpg);
+    background-image: url(../images/screen5.jpg);
   }
 
   100% {
-    background-image: url(/static/images/screen1.jpg);
+    background-image: url(../images/screen1.jpg);
   }
 }
 
